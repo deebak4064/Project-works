@@ -1,0 +1,22 @@
+# API Dependencies
+uvicorn==0.17.6    # ASGI server
+fastapi==0.95.0    # API framework
+pydantic==1.10.7   # Data validation
+requests==2.23.0   # HTTP client
+
+# ML Dependencies
+numpy==1.24.3      # Numerical computations
+pandas==2.0.0      # Data manipulation
+scikit-learn==1.2.2  # Machine learning utilities
+
+# Local model package
+titanic_model-0.0.1-py3-none-any.whl
+
+# Development Dependencies
+pytest==7.3.1       # Testing framework
+pytest-cov==4.1.0   # Test coverage
+httpx==0.24.1       # HTTP client for testing
+black==22.3.0       # Code formatting
+flake8==3.9.0       # Code linting
+mypy==0.812         # Type checking
+isort==5.8.0        # Import sorting
